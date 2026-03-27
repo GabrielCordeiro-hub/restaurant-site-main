@@ -2,10 +2,10 @@ import React from 'react';
 
 // Using a mix of user-provided photos and brand assets for the gallery
 import pastaImg from '@brain/media__1773708180124.png';
-import skewersImg from '@brain/media__1773711215545.jpg';
-import interiorPhoto2 from '@brain/media__1773711726072.png';
 import oldFashionedImg from '@brain/media__1773708268414.jpg';
-import cheesecakeImg from '@brain/media__1773708359158.png';
+import sushiImg from '@brain/media__1774572382051.jpg';
+import octopusImg from '@brain/media__1774572415462.jpg';
+import cocktailsImg from '@brain/media__1774572444752.png';
 // New Lifestyle and Ambiance Photos
 import chefImg from '@brain/media__1773709971744.jpg';
 import chefImg2 from '@brain/media__1773709979084.jpg';
@@ -20,9 +20,9 @@ const Gallery = ({ onImageClick }) => {
     { src: chefImg2, span: "col-span-1 row-span-2" },
     { src: ribsImg, span: "col-span-1 row-span-1" },
     { src: ambianceDrinkImg, span: "col-span-1 row-span-1" },
-    { src: skewersImg, span: "col-span-1 row-span-1" },
-    { src: interiorPhoto2, span: "col-span-1 row-span-1" },
-    { src: oldFashionedImg, span: "col-span-1 md:col-span-2 row-span-1" }
+    { src: sushiImg, span: "col-span-1 row-span-1" },
+    { src: octopusImg, span: "col-span-1 row-span-1" },
+    { src: cocktailsImg, span: "col-span-1 md:col-span-2 row-span-1" }
   ];
 
   return (
