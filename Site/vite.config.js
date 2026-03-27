@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -7,14 +8,14 @@ export default defineConfig({
   server: {
     fs: {
       allow: [
-        'C:/Users/Usuario/.gemini/antigravity/brain/07e0f904-4b01-4396-b228-3d2ad88d9b9d',
+        'C:/Users/Usuario/.gemini/antigravity/brain/51866809-1e05-4196-8488-85fe7ba557a1',
         '.'
       ]
     }
   },
   resolve: {
     alias: {
-      '@brain': 'C:/Users/Usuario/.gemini/antigravity/brain/07e0f904-4b01-4396-b228-3d2ad88d9b9d'
+      '@brain': path.resolve(__dirname, 'src/assets/images')
     }
   }
 })
