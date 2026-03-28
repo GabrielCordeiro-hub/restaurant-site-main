@@ -8,7 +8,7 @@ import oldFashionedImg from '@brain/media__1773708268414.jpg';
 import menu1 from '@brain/menu_salad_1773704105483.png';
 import pastaImg from '@brain/media__1773708180124.png';
 import cheesecakeImg from '@brain/media__1773708359158.png';
-import cocktailSunriseImg from '@brain/media__1774658390582.png';
+import cocktailSunriseImg from '@brain/cocktail_sunrise.png';
 
 const allItems = [
   {
