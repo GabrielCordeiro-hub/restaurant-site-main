@@ -8,6 +8,7 @@ import oldFashionedImg from '@brain/media__1773708268414.jpg';
 import menu1 from '@brain/menu_salad_1773704105483.png';
 import pastaImg from '@brain/media__1773708180124.png';
 import cheesecakeImg from '@brain/media__1773708359158.png';
+import cocktailSunriseImg from '@brain/media__1774658390582.png';
 
 const allItems = [
   {
@@ -36,11 +37,11 @@ const allItems = [
   },
   {
     id: 4,
-    title: 'Private Booths',
-    description: 'Enjoy your meal in our comfortable, retro-styled private seating area.',
-    price: 'Reserve',
-    category: 'Drinks', // Moving to a different category or just keeping it as an ambiance entry
-    image: interiorPhoto2
+    title: 'Pomegranate Sunrise',
+    description: 'A refreshing signature cocktail blended with fresh pomegranate juice, citrus notes, and dried orange.',
+    price: '$14',
+    category: 'Drinks',
+    image: cocktailSunriseImg
   },
   {
     id: 5,
